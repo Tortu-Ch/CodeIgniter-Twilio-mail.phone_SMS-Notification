@@ -1,0 +1,86 @@
+#sidebar,
+.btn-primary,
+.nav-tabs>li:not(.title-tab):after,
+#timeline .post-content .post-date span{
+    background: #d68910;
+}
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:active,
+.nav-tabs>li.active>a:hover, 
+.nav-tabs>li.active>a:focus{
+    color: #d68910;
+    border-color: #d68910;
+}
+.nav-tabs>li>a:hover{
+    color: #d68910;
+}
+.dataTable tbody tr.active td, 
+.dataTable tbody tr.active:hover td{
+    background: #d68910 !important;
+}
+.select2-results .select2-highlighted{
+    background-color: #d68910;
+}
+.datepicker table tr td.active.active,
+.datepicker table tr td.active.active:hover,
+.datepicker table tr td span.active.active,
+.datepicker table tr td span.active:hover.active,
+.datepicker table tr td span.active.disabled.active,
+.datepicker table tr td span.active.disabled:hover.active,
+.datepicker table tr td span.active.active:hover, 
+.datepicker table tr td span.active:hover.active:hover, 
+.list-group-item.active,
+.list-group-item.active:focus, 
+.list-group-item.active:hover{
+    background: #d68910;
+    border-color: #d68910;
+}
+
+
+.btn-primary:hover,
+.btn-primary:active, 
+.btn-primary:focus,
+#sidebar-menu li ul > li > a,
+#sidebar-menu li:hover,
+#sidebar-menu > li.active > a,
+#sidebar-menu li a:hover
+{
+    background: #b9770e; 
+    color: #FFF;
+}
+#sidebar-menu .devider{
+    border-color: #b9770e
+}
+a {
+    color: #b9770e;
+}
+.bg-success{
+    background: #b9770e;
+}
+
+
+#sidebar-menu li a,
+#sidebar-menu li.expand > a:before{
+    color: #fff;
+}
+#sidebar-menu > li.active > a{
+    border-color: #fff;
+}
+#sidebar-menu > li > ul > li > a:hover{
+    background: #9c640c;
+    color: #fff;
+}
+
+
+a:hover,
+a:focus,
+a:active{
+    color: #7e5109;
+}
+.bg-dark-success{
+    background: #7e5109; 
+}
+
+.atwho-view .cur{
+    background-color: #d68910;
+}

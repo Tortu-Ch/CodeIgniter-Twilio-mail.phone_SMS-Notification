@@ -1,0 +1,262 @@
+div.ganttview {
+    position: relative
+}
+
+div.ganttview,
+div.ganttview *,
+div.ganttview:after,
+div.ganttview:before,
+div.ganttview:after,
+div.ganttview:before {
+    box-sizing: border-box
+}
+
+div.ganttview-wrapper {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+div.ganttview-grid,
+div.ganttview-grid-row-cell,
+div.ganttview-hzheader-day,
+div.ganttview-hzheader-month,
+div.ganttview-vtheader {
+    float: left;
+}
+
+div.ganttview-hzheader-day,
+div.ganttview-hzheader-month {
+    text-align: center;
+}
+
+div.ganttview-grid-row-cell.last,
+div.ganttview-hzheader-day.last,
+div.ganttview-hzheader-month.last {
+    border-right: none;
+}
+
+div.ganttview-hzheader-month {
+    width: 60px;
+    height: 20px;
+    border-right: 1px solid #eee;
+    line-height: 20px;
+    font-weight: bold;
+    box-sizing: content-box;
+}
+
+div.ganttview-hzheader-day {
+    width: 25px;
+    height: 25px;
+    border-right: 1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+    line-height: 23px;
+    color: #666;
+    font-size: 11px;
+}
+
+div.ganttview-hzheader-day.ganttview-weekend {
+    background: #f8f8f8
+}
+
+div.ganttview-vtheader {
+    margin-top: 46px;
+    width: 240px;
+    background-color: #fff
+}
+
+
+div.ganttview-vtheader-group-name {
+    line-height: 22px;  
+    font-weight: bold;
+    height: 24px;
+    padding: 0 8px;
+    position: relative;
+    border-top: 1px solid #e5e9ec;
+    background: #f2f4f6
+
+}
+.ganttview-last-day {
+    border-right-color:  #e5e9ec !important;
+}
+
+div.ganttview-vtheader-group-name {
+    cursor: pointer
+}
+
+div.ganttview-vtheader-group-name:before {
+    position: absolute;
+    right: 4px;
+    top: 0;
+    display: block;
+    content: '\f105';
+    font-family: 'FontAwesome';
+}
+
+div.ganttview-vtheader-group-name.grid-hidden:before {
+    content: '\f107'
+}
+
+div.ganttview-vtheader-series-row {
+    height: 28px;
+    padding: 3px 8px;
+    border-top: 1px solid #f2f2f2;
+    font-size: 13px;
+    overflow: hidden
+}
+
+div.ganttview-vtheader-series-row .series-content {
+    line-height: 16px;
+    padding-top: 2px
+}
+
+div.ganttview-vtheader-series-row .series-content>span {
+    color: #aaa;
+    display: block;
+    font-size: 11px;
+}
+
+div.ganttview-hzheader-days,
+div.ganttview-hzheader-months {
+    overflow: hidden
+}
+
+div.ganttview-slide-container {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-y: auto;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch
+}
+
+div.ganttview-grid-row {
+    overflow: hidden
+}
+
+div.ganttview-grid-row-cell {
+    width: 25px;
+    height: 28px;
+    border-right: 1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+}
+
+div.ganttview-grid-row-cell.ganttview-weekend {
+    background-color: #f2f4f6
+}
+
+div.ganttview-grid-header {
+    background: #f2f4f6;
+    height: 24px;
+    border-top: 1px solid #e5e9ec;
+}
+
+div.ganttview-grid-header+.ganttview-grid-row>div.ganttview-grid-row-cell {
+    border-top-color: #f2f2f2
+}
+
+div.ganttview-blocks {
+    min-width: 100%;
+    width: auto
+}
+
+div.ganttview-block {
+    position: relative;
+    height: 24px;
+}
+
+div.ganttview-block-spacer {
+    height: 24px
+}
+
+div.ganttview-block-container {
+    padding:2px 0;
+}
+
+div.ganttview-block-text {
+    position: absolute;
+    font-size: 11px;
+    color: #fff;
+    padding: 4px 2px 6px 7px;
+    text-overflow: ellipsis;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    display: block
+}
+div.ganttview-block-text a{
+    color: #fff;
+}
+
+
+@media only screen and (min-width:768px) {
+    div.ganttview-wrapper {
+        width: 100%;
+    }
+    div.ganttview-slide-container {
+        width: 75%;
+        border: 1px solid #e5e9ec;
+    }
+    div.ganttview-vtheader {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    div.ganttview-wrapper {
+        position: relative
+    }
+    div.ganttview-vtheader {
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: 0 0;
+        width: 100%;
+        z-index: 10;
+        margin-top: 28px;
+    }
+    div.ganttview-vtheader-group-name {
+   margin-top: 16px;
+
+    }
+    div.ganttview-vtheader-series-name {
+        height: 22px;
+        line-height: 20px;
+        border: none;
+        margin-bottom: 31px;
+    }
+    div.ganttview-vtheader-series-row {
+        margin-bottom: 31px;
+        line-height: 21px;
+    }
+    div.ganttview-row {
+        margin-top: 21px
+    }
+    div.ganttview-grid-header {
+        background: 0 0;
+        border-top: none
+    }
+    div.ganttview-grid-header+.ganttview-grid-row>div.ganttview-grid-row-cell {
+        border-top-color: #f2f4f6;
+    }
+    div.ganttview-grid-row {
+        margin-top: 31px
+    }
+    div.ganttview-block-container {
+        margin-top: 31px
+    }
+    div.ganttview-slide-container,
+    div.ganttview-wrapper {
+        width: 100%
+    }
+    div.ganttview-slide-container {
+        border-left: none;
+        position: relative;
+        z-index: 10
+    }
+    div.ganttview-vtheader-group:last-child {
+        border-bottom: none
+    }
+}

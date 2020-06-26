@@ -1,0 +1,61 @@
+.invoice-preview{
+    max-width: 900px;
+    min-width: 400px;
+    margin: auto;
+}
+.invoice-preview table{
+    width: 100%;
+    margin-top: 40px;
+}
+.invoice-preview td, 
+.invoice-preview th {
+    padding: 10px;
+}
+.invoice-preview *{
+    line-height: 20px !important;
+}
+
+
+.ribbon {
+    position: absolute;
+    left: -35px; top: -35px;
+    z-index: 1;
+    overflow: hidden;
+    width: 110px; height: 110px;
+    text-align: right;
+}
+.ribbon span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    width: 147px;
+    display: block;
+    position: absolute;
+    top: 35px; left: -28px;
+    padding: 0 !important;
+}
+.ribbon span::before {
+    content: "";
+    position: absolute; left: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid #aaa;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #aaa;
+}
+.ribbon span::after {
+    content: "";
+    position: absolute; right: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid transparent;
+    border-right: 3px solid #aaa;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #aaa;
+}
+.invoice-meta{
+    font-size: 100% !important;
+}

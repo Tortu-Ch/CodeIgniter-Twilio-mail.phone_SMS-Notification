@@ -1,0 +1,184 @@
+[02-Jan-2019 16:40:30 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number +15558675309 is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(24): Twilio\Rest\Api\V2010\Account\MessageList->create('+15558675309', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[02-Jan-2019 16:42:07 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: To number: +2027664195, is not a mobile number' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(24): Twilio\Rest\Api\V2010\Account\MessageList->create('+2027664195', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[02-Jan-2019 17:19:38 America/Chicago] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home2/becoweb/public_html/twilio/send.php on line 33
+[02-Jan-2019 17:20:17 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number  is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(44): Twilio\Rest\Api\V2010\Account\MessageList->create('+$phone', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[02-Jan-2019 17:23:00 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number + is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(44): Twilio\Rest\Api\V2010\Account\MessageList->create('+$ph', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[02-Jan-2019 17:23:19 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number + is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(44): Twilio\Rest\Api\V2010\Account\MessageList->create('+".$ph."', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[02-Jan-2019 17:24:08 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number  is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(44): Twilio\Rest\Api\V2010\Account\MessageList->create('$ph', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[02-Jan-2019 17:25:20 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number  is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(44): Twilio\Rest\Api\V2010\Account\MessageList->create('$ph', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[02-Jan-2019 17:27:19 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number  is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(44): Twilio\Rest\Api\V2010\Account\MessageList->create('$ph', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[02-Jan-2019 17:28:27 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number + is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(44): Twilio\Rest\Api\V2010\Account\MessageList->create('+', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[02-Jan-2019 17:29:30 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number + is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(44): Twilio\Rest\Api\V2010\Account\MessageList->create('+', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[02-Jan-2019 17:29:36 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number + is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(44): Twilio\Rest\Api\V2010\Account\MessageList->create('+', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[02-Jan-2019 17:31:25 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number  is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(44): Twilio\Rest\Api\V2010\Account\MessageList->create('".$ph."', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[02-Jan-2019 17:31:45 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number  is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(44): Twilio\Rest\Api\V2010\Account\MessageList->create('".$ph."', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[02-Jan-2019 17:32:17 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number + is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(44): Twilio\Rest\Api\V2010\Account\MessageList->create('+', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[02-Jan-2019 17:33:31 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number + is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(44): Twilio\Rest\Api\V2010\Account\MessageList->create('+', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[02-Jan-2019 17:33:54 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number + is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(44): Twilio\Rest\Api\V2010\Account\MessageList->create('+', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[02-Jan-2019 17:34:56 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number + is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(44): Twilio\Rest\Api\V2010\Account\MessageList->create('+', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[02-Jan-2019 17:35:30 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number + is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(44): Twilio\Rest\Api\V2010\Account\MessageList->create('+', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[02-Jan-2019 17:39:54 America/Chicago] PHP Parse error:  syntax error, unexpected '$ph' (T_VARIABLE) in /home2/becoweb/public_html/twilio/send.php on line 37
+[02-Jan-2019 17:41:05 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number + is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(44): Twilio\Rest\Api\V2010\Account\MessageList->create('+', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[02-Jan-2019 17:42:45 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number + is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(44): Twilio\Rest\Api\V2010\Account\MessageList->create('+', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[03-Jan-2019 01:11:49 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number  is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(43): Twilio\Rest\Api\V2010\Account\MessageList->create('".$ph."', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[03-Jan-2019 01:12:10 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number  is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(43): Twilio\Rest\Api\V2010\Account\MessageList->create('".$ph."', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[03-Jan-2019 01:12:40 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number  is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(43): Twilio\Rest\Api\V2010\Account\MessageList->create('$ph', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[03-Jan-2019 01:13:04 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(43): Twilio\Rest\Api\V2010\Account\MessageList->create('+2347068963669', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[03-Jan-2019 01:18:00 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(43): Twilio\Rest\Api\V2010\Account\MessageList->create('+2347068963669', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
+[03-Jan-2019 07:54:41 America/Chicago] PHP Fatal error:  Uncaught exception 'Twilio\Exceptions\RestException' with message '[HTTP 400] Unable to create record: The 'To' number + is not a valid phone number.' in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(71): Twilio\Version->create('POST', '/Accounts/AC490...', Array, Array)
+#2 /home2/becoweb/public_html/twilio/send.php(47): Twilio\Rest\Api\V2010\Account\MessageList->create('+', Array)
+#3 {main}
+  thrown in /home2/becoweb/public_html/twilio/twilio-php-master/Twilio/Version.php on line 85
